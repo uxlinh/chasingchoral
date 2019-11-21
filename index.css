@@ -1,0 +1,16 @@
+body {
+    top:0;
+
+}
+
+#hero {
+    height: 100vh;
+    width: 100vw;
+}
+
+#underwater {
+    min-height: 300vh;
+    max-width: 100vw;
+    background: rgb(9,13,64);
+    background: linear-gradient(0deg, rgba(9,13,64,1) 30%, rgba(9,37,92,1) 55%, rgba(1,140,152,1) 94%, rgb(0, 164, 179) 100%);
+}
