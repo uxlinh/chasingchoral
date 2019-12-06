@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1344" height="537" viewBox="0 0 1344 537">
+  <defs>
+    <filter id="Chasing" x="0" y="0" width="1179" height="353" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Choral" x="337" y="184" width="1007" height="353" filterUnits="userSpaceOnUse">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_42795" data-name="Group 42795" transform="translate(-211 -517)">
+    <text id="A_Netflix_original_documentary" data-name="A Netflix original documentary" transform="translate(848 570)" fill="#fff" font-size="30" font-family="Poppins-Regular, Poppins" letter-spacing="0.005em"><tspan x="0" y="0">A </tspan><tspan y="0" fill="#9d1515" font-family="Poppins-Bold, Poppins" font-weight="700">Netflix</tspan><tspan y="0" font-family="Poppins-Black, Poppins" font-weight="800"> </tspan><tspan y="0">Original Documentary</tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 211, 517)" filter="url(#Chasing)">
+      <text id="Chasing-2" data-name="Chasing" transform="translate(15 5)" fill="#fff" font-size="230" font-family="Poppins-Black, Poppins" font-weight="800" opacity="0.583"><tspan x="0" y="242">CHASING</tspan></text>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 211, 517)" filter="url(#Choral)">
+      <text id="Choral-2" data-name="Choral" transform="translate(352 431)" fill="#e2b446" font-size="230" font-family="Poppins-Black, Poppins" font-weight="800"><tspan x="0" y="0">CHORAL</tspan></text>
+    </g>
+  </g>
+</svg>
