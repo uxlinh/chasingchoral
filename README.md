@@ -1,2 +1,2 @@
 # ChasingChoral
- https://uxlinh.github.io/chasingchoral/
+Website: https://uxlinh.github.io/chasingchoral/
