@@ -770,9 +770,19 @@ img {
 
 /* 900px */
 @media screen and (max-width: 900px) {
+    nav {
+        position: fixed;
+    }
 
     section#hero {
         background-image: url('../img/water2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: fixed;
+        min-height: 100vh;
+        max-width: 100vw;
+    }
     }
     
     img#heroimg{
@@ -781,6 +791,7 @@ img {
     }
     #arrowdown{
         width: 5%;
+        position: fixed;
     }
 
     /* Timeline section */
@@ -827,7 +838,6 @@ img {
         background-color: white;
         border: rgb(255, 255, 255) 3px solid;
     }
-}
 
 
 
@@ -841,6 +851,12 @@ img {
 @media screen and (max-width: 768px) {
     section#hero {
         background-image: url('../img/water3.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center center;
+        background-attachment: fixed;
+        min-height: 100vh;
+        max-width: 100vw;
     }
 
     ul.menu {
@@ -876,6 +892,7 @@ img {
         top: 20%;
         bottom: 12%;
     }
+    
 }
 
 
