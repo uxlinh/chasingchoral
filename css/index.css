@@ -20,20 +20,15 @@ body {
 
 /* HEADER START */
 nav {
-    height: 10vh;
-    width: 98vw;
+    height: 5vh;
+    width: 100vw;
     position: fixed;
     top: 0;
     left: 0;
     display: flex;
     justify-content: flex-end;
     z-index: 1;
-    padding: 10px 10px;
-}
-ul.menu {
-    list-style: none;
-    padding: 1.5rem 2.5rem 0rem 2.5rem;
-    margin: 0;
+    padding: 20px 60px;
 }
 
 .menu li {
@@ -45,8 +40,8 @@ ul.menu {
     color: white;
     text-decoration: none;
     border-radius: 3px;
-    transition: 0.3s ease;
-    margin: 0 0.5rem 0rem 0.5rem;
+    transition: 0.3s ease-in-out;
+    margin: 0 0.5rem;
     font-family: 'Poppins';
     font-weight: 700;
 }
@@ -59,7 +54,6 @@ ul.menu {
 
 
 #watch{
-    text-transform: uppercase;
     font-weight: 900;
     font-size: 1.5rem;
     border: 3.5px #E8B322 solid;
@@ -769,10 +763,7 @@ img {
 
 
 /* 900px */
-@media screen and (max-width: 900px) {
-    nav {
-        position: fixed;
-    }
+@media screen and (max-width: 1024px) {
 
     section#hero {
         background-image: url('../img/water2.jpg');
@@ -783,7 +774,6 @@ img {
         min-height: 100vh;
         max-width: 100vw;
     }
-    }
     
     img#heroimg{
         width: 90%;
@@ -791,7 +781,6 @@ img {
     }
     #arrowdown{
         width: 5%;
-        position: fixed;
     }
 
     /* Timeline section */
@@ -838,6 +827,7 @@ img {
         background-color: white;
         border: rgb(255, 255, 255) 3px solid;
     }
+}
 
 
 
@@ -892,7 +882,6 @@ img {
         top: 20%;
         bottom: 12%;
     }
-    
 }
 
 
@@ -912,8 +901,8 @@ img {
         font-size: 2rem;
     }
     p#intro{
-        font-size: 1rem;
-        line-height: 1.2rem;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
     }
 
     #tittel1{
@@ -951,13 +940,13 @@ img {
         padding: 1.5rem 1rem 0rem 1rem;
     }
     .menu li {
-        padding: 0;
+        padding: 0.5rem 0rem;
         font-size: 0.9rem;
     }
     #watch{
-        font-size: 0.8rem;
-        border: 3px #E8B322 solid;
-        padding: 8% 12% 8% 12%;
+        font-size: 1.2rem;
+        border: none;
+        padding: 0;
         position: relative;
     }
     #arrowdown{
@@ -984,6 +973,15 @@ img {
         top: 20%;
         bottom: 12%;
     }
-
+    
+    a.menu-text {
+        color: white;
+        text-decoration: none;
+        border-radius: 3px;
+        transition: 0.3s ease;
+        font-family: 'Poppins';
+        font-weight: 700;
+        margin: 2rem 0.5rem;
+    } 
   
 }
